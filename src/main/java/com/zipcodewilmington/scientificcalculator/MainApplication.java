@@ -12,7 +12,7 @@ public class MainApplication {
 
 
         Scanner scan = new Scanner(System.in);
-        System.out.print("Choose the option: ");
+        System.out.print("Choose the option: \n");
         System.out.print("1. Inverse \n 2.Square \n 3.Squareroot \n 4.Exponent\n");
         int operator = scan.nextInt();
 

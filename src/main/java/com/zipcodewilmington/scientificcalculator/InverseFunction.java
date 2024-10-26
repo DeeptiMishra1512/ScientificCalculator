@@ -12,16 +12,22 @@ public class InverseFunction {
 
 
         System.out.println("Original Input value : " + y);
-        System.out.println("Inverse of input value: " + inverseF(y));
+        System.out.println("Inverse of input value: " + inverseNumF(y));
         scan.close();
-        return inverseF(y);
+        return inverseNumF(y);
 
     }
 
-    //Function to reverse the number
-    public static double inverseF(double y) {
+    //Function to inverse the number
+    public static double inverseNumF(double y) {
         return 1/y;
     }
+
+    //Function to invert the sign of the number
+//    public static double invertsign(double x) {
+//
+//  //      return 1/y;
+//    }
 
 }
 
